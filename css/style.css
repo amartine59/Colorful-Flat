@@ -1,0 +1,12 @@
+/*body{
+  padding: 20px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+.absolute-container{
+  margin: 0 auto;
+}
+
+.d-flex{display: flex;}
+.justify-between{justify-content: space-between;}
+.justify-around{justify-content: space-around;}
