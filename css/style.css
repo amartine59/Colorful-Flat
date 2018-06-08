@@ -1,12 +1,44 @@
-/*body{
-  padding: 20px;
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+  padding: 0px;
   text-align: center;
   font-family: Helvetica, sans-serif;
-}
-.absolute-container{
   margin: 0 auto;
 }
 
+/*Setting all the flex-box features*/
 .d-flex{display: flex;}
 .justify-between{justify-content: space-between;}
 .justify-around{justify-content: space-around;}
+.justify-evenly{justify-content: space-evenly;}
+.justify-align-center{justify-content: center;
+                      align-items: center;}
+.justify-start{justify-content: flex-start;}
+.justify-center{justify-content: center;}
+
+/*Setting all the background colors*/
+.blue-background{background-color: rgb(168, 212, 221);}
+.white-background{background-color:rgb(255, 255, 255);}
+.green-background{background-color: rgb(155, 213, 164);}
+.grey-background{background-color: rgb(240, 240, 240);}
+.pink-background{background-color: rgb(223, 182, 198);}
+.dark-background{background-color: rgb(60, 60, 60);}
+
+/*Setting the same size for all the buttons*/
+.buttons{height: 60px;
+         width: 140px;
+         border-radius: 20px;
+         }
+/*Setting custom fonts */
+.font-lato{font-family: 'Lato',sans-serif;}
+
+
+/*Setting the witdh for all the content*/
+.header-container{width: 930px;margin: 0 auto;}
+.service-container{width:930px;margin: 0 auto;}
+.rworks-container{width: 930px;margin: 0 auto;}
+.templates-container{width: 930px;margin: 0 auto;}
+.team-container{width: 950px;margin: 0 auto;}
+.rpost-container{width: 930px;margin: 0 auto;}
+.contact-container{width: 580px;margin: 0 auto;}
