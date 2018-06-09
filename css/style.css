@@ -1,44 +1,144 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900");
 
-body{
-  padding: 0px;
+body {
   text-align: center;
   font-family: Helvetica, sans-serif;
   margin: 0 auto;
 }
-
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
 /*Setting all the flex-box features*/
-.d-flex{display: flex;}
-.justify-between{justify-content: space-between;}
-.justify-around{justify-content: space-around;}
-.justify-evenly{justify-content: space-evenly;}
-.justify-align-center{justify-content: center;
-                      align-items: center;}
-.justify-start{justify-content: flex-start;}
-.justify-center{justify-content: center;}
+.d-flex {
+  display: flex;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-evenly {
+  justify-content: space-evenly;
+}
+.justify-align-center {
+  justify-content: center;
+  align-items: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
 
 /*Setting all the background colors*/
-.blue-background{background-color: rgb(168, 212, 221);}
-.white-background{background-color:rgb(255, 255, 255);}
-.green-background{background-color: rgb(155, 213, 164);}
-.grey-background{background-color: rgb(240, 240, 240);}
-.pink-background{background-color: rgb(223, 182, 198);}
-.dark-background{background-color: rgb(60, 60, 60);}
+.blue-background {
+  background-color: rgb(168, 212, 221);
+}
+.white-background {
+  background-color: rgb(255, 255, 255);
+}
+.green-background {
+  background-color: rgb(155, 213, 164);
+}
+.grey-background {
+  background-color: rgb(240, 240, 240);
+}
+.pink-background {
+  background-color: rgb(223, 182, 198);
+}
+.dark-background {
+  background-color: rgb(60, 60, 60);
+}
 
+/*Setting the color for all the text  */
+.color-black {
+  color: rgb(49, 49, 49);
+}
+.color-dark {
+  color: rgb(58, 73, 76);
+}
+.color-white {
+  color: rgb(254, 254, 255);
+}
+
+.topmenu-item {
+  color: rgb(58, 73, 76);
+  font-weight: bold;
+  text-decoration: none;
+}
 /*Setting the same size for all the buttons*/
-.buttons{height: 60px;
-         width: 140px;
-         border-radius: 20px;
-         }
+.buttons {
+  height: 60px;
+  width: 140px;
+  border-radius: 20px;
+}
 /*Setting custom fonts */
-.font-lato{font-family: 'Lato',sans-serif;}
-
+.font-lato {
+  font-family: "Lato", sans-serif;
+}
 
 /*Setting the witdh for all the content*/
-.header-container{width: 930px;margin: 0 auto;}
-.service-container{width:930px;margin: 0 auto;}
-.rworks-container{width: 930px;margin: 0 auto;}
-.templates-container{width: 930px;margin: 0 auto;}
-.team-container{width: 950px;margin: 0 auto;}
-.rpost-container{width: 930px;margin: 0 auto;}
-.contact-container{width: 580px;margin: 0 auto;}
+.header-container {
+  width: 930px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+.service-container {
+  width: 930px;
+  margin: 0 auto;
+}
+.rworks-container {
+  width: 930px;
+  margin: 0 auto;
+}
+.templates-container {
+  width: 930px;
+  margin: 0 auto;
+}
+.team-container {
+  width: 950px;
+  margin: 0 auto;
+}
+.rpost-container {
+  width: 930px;
+  margin: 0 auto;
+}
+.contact-container {
+  width: 580px;
+  margin: 0 auto;
+}
+
+/*Setting Space details for all the medium containers*/
+.img-text {
+  font-weight: 900;
+  font-size: 17pt;
+  letter-spacing: 1px;
+  width: 40%;
+}
+.logo {
+  height: 25px;
+  margin-right: 15px;
+}
+.imac-image {
+  height: 250px;
+}
+.header-menu {
+  width: 60%;
+  padding-top: 8px;
+}
+.header-container-menu {
+  margin-bottom: 20px;
+}
+.header-wrapper {
+  padding: 30px;
+}
+.fsection-content {
+  font-size: 28pt;
+  font-weight: 800;
+}
