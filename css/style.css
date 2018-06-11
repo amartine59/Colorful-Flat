@@ -41,6 +41,12 @@ p {
 .justify-center {
   justify-content: center;
 }
+.a-center {
+  align-self: center;
+}
+.a-start {
+  align-self: flex-start;
+}
 
 /*Setting all the background colors*/
 .blue-background {
@@ -74,7 +80,6 @@ p {
 }
 
 .topmenu-item {
-  color: rgb(58, 73, 76);
   font-weight: 800;
   text-decoration: none;
   padding: 8px;
@@ -83,8 +88,11 @@ p {
 /*Setting the same size for all the buttons*/
 .buttons {
   height: 60px;
-  width: 140px;
-  border-radius: 20px;
+  width: 120px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 2px 10px 2px 10px;
 }
 /*Setting custom fonts */
 .font-lato {
@@ -98,15 +106,16 @@ p {
 }
 .service-container {
   width: 930px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 .rworks-container {
   width: 930px;
-  padding-top: 30px;
+  padding-top: 35px;
   padding-bottom: 30px;
 }
 .templates-container {
   width: 930px;
-  margin: 0 auto;
 }
 .team-container {
   width: 950px;
@@ -151,16 +160,15 @@ p {
   font-size: 28pt;
   font-weight: 800;
 }
-
+.topmenu-item:visited {
+  color: rgb(58, 73, 76);
+}
 .topmenu-item:hover {
   border-radius: 5px;
   background-color: rgb(58, 73, 76);
   color: rgb(168, 212, 221);
 }
-.service-wrapper {
-  padding-top: 40px;
-  padding-bottom: 30px;
-}
+
 .service-1-2-3 {
   width: 100%;
   padding: 30px;
@@ -184,4 +192,79 @@ p {
 }
 .menu-images {
   padding: 20px;
+}
+
+.rwork-title {
+  padding: 20px;
+  width: 360px;
+  margin-bottom: 40px;
+}
+.work-title-heading {
+  font-weight: 800;
+  font-size: 28pt;
+  margin-bottom: 10px;
+}
+.work-title-description {
+  color: rgb(192, 231, 200);
+  width: 365px;
+  line-height: 1.4;
+}
+.rwork-header-menu {
+  height: 30px;
+  margin-bottom: 30px;
+}
+.rwork-menu-item {
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px;
+  font-size: 11pt;
+}
+
+.rwork-menu-item:hover {
+  border: 2px solid rgb(254, 254, 255);
+  border-radius: 5px;
+}
+
+.rwork-images {
+  margin-bottom: 30px;
+}
+
+.rworks-button {
+  color: rgb(164, 164, 164);
+}
+.rworks-button:visited {
+  color: rgb(167, 167, 167);
+  background-color: rgb(254, 254, 255);
+}
+.template-image {
+  height: 180px;
+  margin-right: 30px;
+}
+.template-heading {
+  margin-bottom: 22px;
+  font-weight: 800;
+  color: rgb(82, 82, 82);
+}
+.template-description {
+  text-align: start;
+  margin-bottom: 15px;
+  color: rgb(82, 82, 82);
+  font-weight: 500;
+  font-size: 13pt;
+  line-height: 1;
+}
+.templates-wrapper {
+  padding: 10px;
+}
+.templates-top {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+.templates-bottom {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.division-line {
+  margin-bottom: 30px;
 }
