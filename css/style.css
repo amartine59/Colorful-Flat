@@ -69,8 +69,10 @@ p {
 
 .topmenu-item {
   color: rgb(58, 73, 76);
-  font-weight: bold;
+  font-weight: 800;
   text-decoration: none;
+  padding: 8px;
+  font-size: 11pt;
 }
 /*Setting the same size for all the buttons*/
 .buttons {
@@ -86,12 +88,10 @@ p {
 /*Setting the witdh for all the content*/
 .header-container {
   width: 930px;
-  margin: 0 auto;
   padding-top: 10px;
 }
 .service-container {
   width: 930px;
-  margin: 0 auto;
 }
 .rworks-container {
   width: 930px;
@@ -130,15 +130,48 @@ p {
 }
 .header-menu {
   width: 60%;
-  padding-top: 8px;
 }
 .header-container-menu {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .header-wrapper {
-  padding: 30px;
+  padding: 30px 30px 10px 30px;
+}
+.header-content {
+  margin-bottom: 20px;
 }
 .fsection-content {
   font-size: 28pt;
   font-weight: 800;
+}
+
+.topmenu-item:hover {
+  border-radius: 5px;
+  background-color: rgb(58, 73, 76);
+  color: rgb(168, 212, 221);
+}
+.service-wrapper {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.service-1-2-3 {
+  width: 100%;
+  padding: 30px;
+}
+.service-images {
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.services-headings {
+  font-weight: 800;
+  margin-bottom: 20px;
+  font-size: 11pt;
+}
+
+.services-description {
+  font-weight: lighter;
+  font-size: 10pt;
+  color: rgb(107, 107, 107);
+  line-height: 1.3;
 }
