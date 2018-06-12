@@ -130,6 +130,8 @@ p {
 }
 .contact-container {
   width: 580px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /*Setting Space details for all the medium containers*/
@@ -356,6 +358,9 @@ p {
   width: 360px;
   margin-bottom: 20px;
 }
+.contact-heading {
+  font-size: 28pt;
+}
 .contact-heading-description {
   color: rgb(164, 164, 164);
   font-weight: lighter;
@@ -393,22 +398,53 @@ textarea {
   border-color: rgb(32, 32, 32);
   margin: 0;
   margin-bottom: 20px;
+  width: 800px;
 }
-.contact-footer {
-  padding: 10px;
+
+.contact-icons {
+  width: 30%;
+  margin-right: 8px;
 }
-/*rgb(82, 82, 82);*/
+.contact-designer {
+  width: 70%;
+}
 .bottom-icons {
   border-radius: 50%;
-  height: 30px;
-  width: 35px;
+  height: 40px;
+  width: 20%;
   background-color: rgb(82, 82, 82);
+  display: flex !important;
 }
 .footer-info {
   color: rgb(164, 164, 164);
+  font-weight: lighter;
 }
-
+.contact-footer {
+  width: 800px;
+}
 .footer-site {
   text-decoration: none;
   color: rgb(226, 191, 114);
+}
+
+.fa-facebook {
+  text-decoration: none;
+  background: rgb(82, 82, 82);
+  color: rgb(59, 59, 59);
+}
+
+.fa-twitter {
+  text-decoration: none;
+  background: rgb(82, 82, 82);
+  color: rgb(59, 59, 59);
+}
+.fa-html5 {
+  text-decoration: none;
+  background: rgb(82, 82, 82);
+  color: rgb(59, 59, 59);
+}
+.fa-flickr {
+  text-decoration: none;
+  background: rgb(82, 82, 82);
+  color: rgb(59, 59, 59);
 }
