@@ -119,7 +119,7 @@ p {
 }
 .team-container {
   width: 950px;
-  margin: 0 auto;
+  padding: 30px;
 }
 .rpost-container {
   width: 930px;
@@ -254,7 +254,7 @@ p {
   line-height: 1;
 }
 .templates-wrapper {
-  padding: 10px;
+  padding: 20px;
 }
 .templates-top {
   padding-top: 30px;
@@ -264,7 +264,50 @@ p {
 .templates-bottom {
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 20px;
 }
 .division-line {
   margin-bottom: 30px;
+}
+.team-header {
+  padding: 10px;
+  width: 360px;
+  margin-bottom: 20px;
+}
+.team-heading {
+  font-weight: 800;
+  font-size: 28pt;
+}
+.team-heading-description {
+  color: rgb(236, 211, 222);
+  width: 365px;
+  line-height: 1.4;
+}
+.member-description {
+  width: 25%;
+  padding: 20px;
+  color: rgb(82, 82, 82);
+}
+.member-wrapper {
+  padding: 10px;
+}
+.member-name {
+  font-weight: 700;
+  font-size: 15pt;
+  margin-bottom: 10px;
+}
+.member-rank {
+  font-weight: 600;
+  font-size: 11pt;
+  margin-bottom: 10px;
+}
+.member-p {
+  margin-bottom: 15px;
+}
+.member-icons {
+  height: 30px;
+  padding: 5px;
+}
+.t-round {
+  border-radius: 50%;
 }
