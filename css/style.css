@@ -109,7 +109,8 @@ p {
 /*Setting the witdh for all the content*/
 .header-container {
   width: 920px;
-  padding-top: 10px;
+  padding-top: 40px;
+  padding-bottom: 25px;
 }
 .service-container {
   width: 920px;
@@ -160,18 +161,44 @@ p {
   width: 60%;
 }
 .header-container-menu {
-  margin-bottom: 50px;
-}
-.header-wrapper {
-  padding: 30px 30px 10px 30px;
+  margin-bottom: 70px;
 }
 .header-content {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 .fsection-content {
-  font-size: 28pt;
-  font-weight: 800;
+  font-size: 38pt;
+  font-weight: 900;
 }
+.header-footer input[type="radio"] {
+  opacity: 0;
+}
+.header-footer {
+  height: 35px;
+}
+.radio-container {
+  height: 30px;
+  width: 30px;
+}
+.round-radio {
+  background-color: rgb(168, 212, 221);
+  border-radius: 50%;
+  border: 3px solid rgb(254, 254, 255);
+  margin-right: 5px;
+  cursor: pointer;
+}
+.round-radio:hover {
+  background-color: rgb(254, 254, 255);
+}
+.radio-checked {
+  background-color: rgb(254, 254, 255);
+}
+
+.radio-item {
+  visibility: hidden;
+  position: absolute;
+}
+
 .topmenu-item:visited {
   color: rgb(58, 73, 76);
 }
