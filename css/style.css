@@ -130,7 +130,6 @@ p {
 }
 .contact-container {
   width: 580px;
-  margin: 0 auto;
 }
 
 /*Setting Space details for all the medium containers*/
@@ -318,13 +317,15 @@ p {
 .heading-description {
   color: rgb(205, 225, 234);
   font-weight: 400;
-  font-size: 10pt;
   line-height: 1.4;
 }
 .rpost-header {
   padding: 10px;
   width: 360px;
   margin-bottom: 20px;
+}
+.rpost-heading {
+  font-size: 28pt;
 }
 .rpost-list {
   margin-bottom: 20px;
@@ -349,4 +350,65 @@ p {
 }
 .post-description {
   padding: 10px;
+}
+.contact-header {
+  padding: 10px;
+  width: 360px;
+  margin-bottom: 20px;
+}
+.contact-heading-description {
+  color: rgb(164, 164, 164);
+  font-weight: lighter;
+  line-height: 1.4;
+  font-size: 10pt;
+}
+.contact-form {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"] {
+  height: 55px;
+  border-radius: 10px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 14pt;
+  font-weight: 600;
+  color: rgb(164, 164, 164);
+  padding: 5px;
+}
+textarea {
+  resize: none;
+  border-radius: 10px;
+  height: 145px;
+  width: 100%;
+  font-size: 14pt;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: rgb(164, 164, 164);
+  padding: 5px;
+}
+.division-line-2 {
+  border-style: solid;
+  border-color: rgb(32, 32, 32);
+  margin: 0;
+  margin-bottom: 20px;
+}
+.contact-footer {
+  padding: 10px;
+}
+/*rgb(82, 82, 82);*/
+.bottom-icons {
+  border-radius: 50%;
+  height: 30px;
+  width: 35px;
+  background-color: rgb(82, 82, 82);
+}
+.footer-info {
+  color: rgb(164, 164, 164);
+}
+
+.footer-site {
+  text-decoration: none;
+  color: rgb(226, 191, 114);
 }
