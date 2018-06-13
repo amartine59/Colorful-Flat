@@ -254,7 +254,7 @@ p {
 }
 
 .rwork-title {
-  margin-bottom: 63px;
+  margin-bottom: 66px;
 }
 .work-title-heading {
   font-weight: 800;
@@ -267,19 +267,28 @@ p {
   line-height: 1.4;
 }
 .rwork-header-menu {
-  height: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 47px;
 }
 .rwork-menu-item {
-  font-weight: 600;
+  height: 38px;
+  font-weight: 400;
   text-decoration: none;
-  padding: 5px;
   font-size: 11pt;
+  border: 2px solid rgb(154, 213, 164);
+  border-radius: 5px;
+  padding-right: 14px;
+  padding-left: 14px;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+.selected {
+  background-color: rgb(254, 254, 255);
+  color: rgb(162, 162, 162);
 }
 
 .rwork-menu-item:hover {
-  border: 2px solid rgb(254, 254, 255);
-  border-radius: 5px;
+  border-color: rgb(254, 254, 255);
 }
 
 .rwork-images {
