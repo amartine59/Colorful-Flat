@@ -176,16 +176,14 @@ p {
 .header-footer {
   height: 35px;
 }
-.radio-container {
-  height: 30px;
-  width: 30px;
-}
 .round-radio {
   background-color: rgb(168, 212, 221);
   border-radius: 50%;
-  border: 3px solid rgb(254, 254, 255);
+  border: 2px solid rgb(254, 254, 255);
   margin-right: 5px;
   cursor: pointer;
+  width: 30px;
+  height: 30px;
 }
 .round-radio:hover {
   background-color: rgb(254, 254, 255);
@@ -399,6 +397,7 @@ input[type="email"] {
   font-weight: 600;
   color: rgb(164, 164, 164);
   padding: 20px;
+  border: 0;
 }
 textarea {
   resize: none;
@@ -409,6 +408,7 @@ textarea {
   margin-bottom: 30px;
   color: rgb(164, 164, 164);
   padding: 20px;
+  border: 0;
 }
 .division-line-2 {
   border-style: solid;
