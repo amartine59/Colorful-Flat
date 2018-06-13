@@ -148,7 +148,7 @@ p {
   font-weight: 900;
   font-size: 17pt;
   letter-spacing: 1px;
-  width: 40%;
+  width: 100%;
 }
 .logo {
   height: 25px;
@@ -158,7 +158,7 @@ p {
   height: 250px;
 }
 .header-menu {
-  width: 60%;
+  width: 100%;
 }
 .header-container-menu {
   margin-bottom: 70px;
