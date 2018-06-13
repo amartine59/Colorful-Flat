@@ -93,6 +93,7 @@ p {
   padding-left: 14px;
   padding-right: 14px;
   font-size: 11pt;
+  margin-left: 27px;
 }
 /*Setting the same size for all the buttons*/
 .buttons {
@@ -119,8 +120,8 @@ p {
 }
 .service-container {
   width: 920px;
-  padding-top: 65px;
-  padding-bottom: 85px;
+  padding-top: 80px;
+  padding-bottom: 100px;
 }
 .rworks-container {
   width: 920px;
@@ -161,7 +162,7 @@ p {
 }
 .imac-image {
   height: 250px;
-  /*width: 339px;*/
+  width: 339px;
 }
 .header-menu {
   width: 100%;
@@ -174,7 +175,7 @@ p {
   justify-content: flex-start;
 }
 .header-content-title {
-  margin-right: 101px;
+  margin-right: 90px;
 }
 .fsection-content {
   font-size: 38pt;
@@ -217,10 +218,20 @@ p {
 
 .service-1-2-3 {
   width: 100%;
-  padding: 30px;
+  align-self: flex-end;
 }
-.service-images {
-  height: 100px;
+.service-image-1 {
+  height: 102px;
+}
+.service-image-2 {
+  height: 108px;
+}
+.service-image-3 {
+  height: 85px;
+}
+.service-image-1,
+.service-image-2,
+.service-image-3 {
   margin-bottom: 20px;
 }
 
