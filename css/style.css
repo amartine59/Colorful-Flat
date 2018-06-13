@@ -45,6 +45,9 @@ p {
 .justify-center {
   justify-content: center;
 }
+.aitems-center {
+  align-items: center;
+}
 .a-center {
   align-self: center;
 }
@@ -86,7 +89,9 @@ p {
 .topmenu-item {
   font-weight: 800;
   text-decoration: none;
-  padding: 8px;
+  height: 39px;
+  padding-left: 14px;
+  padding-right: 14px;
   font-size: 11pt;
 }
 /*Setting the same size for all the buttons*/
