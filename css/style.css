@@ -42,6 +42,9 @@ p {
 .justify-start {
   justify-content: flex-start;
 }
+.justify-end {
+  justify-content: flex-end;
+}
 .justify-center {
   justify-content: center;
 }
@@ -130,8 +133,8 @@ p {
 }
 .templates-container {
   width: 920px;
-  padding-top: 55px;
-  padding-bottom: 80px;
+  padding-top: 59px;
+  padding-bottom: 87px;
 }
 .team-container {
   width: 920px;
@@ -250,7 +253,7 @@ p {
   margin: 0 auto;
 }
 .menu-images {
-  padding: 20px;
+  margin-bottom: 60px;
 }
 
 .rwork-title {
@@ -304,7 +307,7 @@ p {
 }
 .template-image {
   height: 180px;
-  margin-right: 30px;
+  margin-right: 60px;
 }
 .template-heading {
   margin-bottom: 22px;
@@ -319,9 +322,8 @@ p {
   font-size: 13pt;
   line-height: 1;
 }
-.templates-wrapper {
-  padding: 20px;
-}
+/*.templates-wrapper {}*/
+
 .templates-top {
   margin-bottom: 80px;
 }
