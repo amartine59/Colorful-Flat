@@ -14,7 +14,7 @@ p {
 }
 
 .absolute-container {
-  min-width: 990px;
+  max-width: 990px;
 }
 /*Setting all the flex-box features*/
 .d-flex {
@@ -549,4 +549,12 @@ textarea {
   background: rgb(82, 82, 82);
   color: rgb(59, 59, 59);
   font-size: 18.75pt !important;
+}
+@media (max-width: 500px) {
+  .d-flex {
+    display: block;
+  }
+  .header-container {
+    max-width: 920px;
+  }
 }
