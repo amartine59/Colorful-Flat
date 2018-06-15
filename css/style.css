@@ -562,6 +562,7 @@ textarea {
     display: flex;
     flex-flow: row wrap;
     margin-bottom: 20px;
+    justify-content: center;
   }
   .img-text {
     display: block;
@@ -572,6 +573,8 @@ textarea {
   .topmenu-item {
     margin-left: 0;
     margin-right: 15px;
+    padding-right: 11px;
+    padding-left: 11px;
   }
   .header-content {
     flex-direction: column;
@@ -588,8 +591,7 @@ textarea {
     margin: 0 auto;
   }
   .header-footer {
-    width: 65%;
-    justify-content: flex-end;
+    margin: 0 auto;
   }
 
   /*Making the second section responsive*/
