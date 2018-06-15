@@ -14,7 +14,7 @@ p {
 }
 
 .absolute-container {
-  max-width: 990px;
+  max-width: 1320px;
 }
 /*Setting all the flex-box features*/
 .d-flex {
@@ -117,7 +117,7 @@ p {
 
 /*Setting the witdh for all the content*/
 .header-container {
-  width: 920px;
+  margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 30px;
 }
@@ -551,10 +551,101 @@ textarea {
   font-size: 18.75pt !important;
 }
 @media (max-width: 500px) {
-  .d-flex {
+  /*Making the first section responsive*/
+  .header-container {
+    display: flex;
+    flex-flow: column wrap;
+  }
+  .header-wrapper {
+    width: 100%;
+  }
+  .header-container-menu {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+  }
+  .header-menu {
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 20px;
+  }
+  .img-text {
+    display: block;
+    font-size: 28pt;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .topmenu-item {
+    margin-left: 0;
+    margin-right: 15px;
+  }
+  .header-content {
+    flex-direction: column;
+  }
+  .header-content-title {
+    margin-right: 0;
+  }
+  .fsection-content {
+    margin: 0 auto;
+    font-size: 25pt;
+    margin-bottom: 20px;
+  }
+  .imac-image {
+    margin: 0 auto;
+  }
+  .header-footer {
+    width: 65%;
+    justify-content: flex-end;
+  }
+
+  /*Making the second section responsive*/
+  .service-container {
+    flex-flow: column wrap;
+    padding-top: 70px;
+    padding-bottom: 60px;
+  }
+
+  .service-1-2-3 {
+    margin-bottom: 30px;
+  }
+  .service-image-1 {
+    width: 30%;
+    height: 30%;
+  }
+  .service-image-3 {
+    width: 25%;
+    height: 25%;
+  }
+  .service-3 {
+    margin-bottom: 0;
+  }
+  .services-description {
+    width: 50%;
+    font-size: 10pt;
+  }
+
+  /*Makind the third section responsive*/
+  .rworks-wrapper {
     display: block;
   }
-  .header-container {
-    max-width: 920px;
+  .rworks-container {
+    width: inherit;
+    padding-bottom: 75px;
+  }
+  .rwork-title {
+    margin-bottom: 40px;
+  }
+  .rwork-header-menu {
+    flex-flow: row wrap;
+    margin-bottom: 40px;
+  }
+  .rwork-menu-item {
+    margin: 0;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .rwork-images {
+    justify-content: center;
+    margin-bottom: 20px;
   }
 }
