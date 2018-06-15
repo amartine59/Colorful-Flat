@@ -4,6 +4,7 @@ body {
   text-align: center;
   font-family: Helvetica, sans-serif;
   margin: 0 auto;
+  min-width: 920px;
 }
 h1,
 h2,
@@ -14,7 +15,6 @@ p {
 }
 
 .absolute-container {
-  max-width: 1320px;
 }
 /*Setting all the flex-box features*/
 .d-flex {
@@ -204,11 +204,6 @@ p {
 }
 .radio-checked {
   background-color: rgb(254, 254, 255);
-}
-
-.radio-item {
-  visibility: hidden;
-  position: absolute;
 }
 
 .topmenu-item:visited {
@@ -412,12 +407,6 @@ p {
   padding-left: 24px;
   padding-right: 24px;
 }
-/*.post-1 {
-  margin-right: 31px;
-}
-.post-3 {
-  margin-left: 31px;
-}*/
 
 .rpost-button {
   color: rgb(181, 210, 224);
@@ -553,6 +542,9 @@ textarea {
 }
 @media (max-width: 500px) {
   /*Making the first section responsive*/
+  body {
+    min-width: 100%;
+  }
   .header-container {
     display: flex;
     flex-flow: column wrap;
