@@ -556,6 +556,7 @@ textarea {
   .header-container {
     display: flex;
     flex-flow: column wrap;
+    width: inherit;
   }
   .header-wrapper {
     width: 100%;
