@@ -688,4 +688,75 @@ textarea {
     flex-flow: column-reverse wrap;
     align-items: center;
   }
+
+  /*Fifth section RWD*/
+
+  .team-wrapper {
+    display: block;
+  }
+  .team-container {
+    width: inherit;
+    flex-flow: column wrap;
+    padding-bottom: 75px;
+  }
+  .team-header {
+    margin-bottom: 50px;
+  }
+  .team-members {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .member-description {
+    width: 60%;
+    margin: 0;
+    margin-bottom: 30px;
+  }
+
+  /*Sixth section RWD*/
+  .rpost-wrapper {
+    display: block;
+  }
+  .rpost-container {
+    width: inherit;
+  }
+  .rpost-header {
+    margin-bottom: 50px;
+  }
+  .rpost-list {
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .rpost-bio {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+
+  /*Last section RWD*/
+  .contact-wrapper {
+    display: block;
+  }
+  .contact-container {
+    width: inherit;
+  }
+  .contact-header {
+    margin-bottom: 60px;
+  }
+  .contact-form {
+    flex-flow: row wrap;
+    width: 70%;
+    align-self: center;
+    margin-bottom: 60px;
+  }
+  .division-line-2 {
+    margin-bottom: 30px;
+  }
+  .contact-icons {
+    width: 40%;
+  }
+  .contact-designer {
+    width: 60%;
+  }
 }
